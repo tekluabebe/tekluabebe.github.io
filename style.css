@@ -88,7 +88,7 @@ section .title::after{
     color: beige;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 70px;
+    margin-left: 90px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
