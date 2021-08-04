@@ -11,21 +11,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
-/*::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}*/
-
 /* all similar content styling codes */
 section{
     padding: 100px 0;
@@ -76,7 +61,6 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-
 /* navbar styling */
 .navbar{
     position: fixed;
@@ -101,7 +85,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: black;
+    color: beige;
     font-size: 18px;
     font-weight: 500;
     margin-left: 40px;
@@ -152,19 +136,17 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-   /* background: url("images/ima.jpg") no-repeat center;*/
+   background-image: url("images/home.jpg");
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
-   background-color: beige;
 }
 /* about section styling */
 .about{
-   background-color: beige;
-   /* background-image:url("images/cc.jpeg");*/
+   background-image: url("images/ipo.jpg");
 }
 .about .title::after{
     content: "who i am";
@@ -208,13 +190,10 @@ section .title::after{
     color: crimson;
     background: none;
 }
-
 /* background  section styling */
 .background{
-    background-color:beige;
-   /* background-image:url("images/ii.jpeg");*/
+   background-color:rgb(0, 128, 38) 
 }
-
 .background .title::after{
     content: "my background";
     background-color: crimson;
@@ -255,46 +234,16 @@ section .title::after{
     align-items: center;
     justify-content: space-between;
 }
-/*.background .background-content .right span{
-    font-weight: 500;
-    font-size: 18px;
-}*/
 .background .background-content .right .line{
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
-/*.background .background-content .right .line::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
-}/*
-.background-content .right .html::before{
-    width: 90%;
-}
-.background-content .right .css::before{
-    width: 60%;
-}
-.background-content .right .js::before{
-    width: 80%;
-}
-.background-content .right .php::before{
-    width: 50%;
-}
-.background-content .right .mysql::before{
-    width: 70%;
-}*/
-
 /* gallery section styling */
 .gallery{
-    background-color:beige;
-    /*background-image:url("images/pix.jpeg");*/
+   background-image: url("images/back.jpg");
 }
-
 .gallery .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -303,8 +252,7 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
     background-color: #333;
-    margin: 20px;
-   
+    margin: 20px; 
 }
 .gallery .carousel .card:hover{
     background: crimson;
@@ -319,12 +267,6 @@ section .title::after{
 .gallery .carousel .card:hover .box{
     transform: scale(1.05);
 }
-/*.gallery .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}*/
-
 .gallery .carousel .card img{
     height: 400px;
     width: 300px;
@@ -332,38 +274,11 @@ section .title::after{
     border-radius: 50%;
     border: 5px solid crimson;
     transition: all 0.3s ease;
-    align-items: left;
-    
+    align-items: left;   
 }
-/*.gallery .carousel .card:hover img{
-    border-color: #fff;
-}
-/*.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid crimson!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: crimson!important;
-}*/
-
 /* contact section styling */
 .contact{
-    background-color:beige;
-    /*background-image:url("images/sale.jpg");*/
+    background-color:aqua
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -470,8 +385,6 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
-
 /*/* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
@@ -479,7 +392,6 @@ footer span a:hover{
         width: 350px;
     }
 }
-
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
@@ -544,7 +456,6 @@ footer span a:hover{
         margin-bottom: 35px;
     }
 }
-
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
@@ -562,14 +473,12 @@ footer span a:hover{
         width: 100%;
     }
 }
-
 @media (max-width: 500px) {
     .home .home-content .text-2{
         font-size: 50px;
     }
     .home .home-content .text-3{
-        font-size: 27px;
-        
+        font-size: 27px;   
     }
     .about .about-content .right .text
     {
@@ -593,5 +502,4 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
-    }
-}
+    }}

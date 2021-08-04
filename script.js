@@ -33,16 +33,8 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
-    // typing text animation script
-   /* var typed = new Typed(".typing", {
-        strings: ["Name:Teklu Abebe", "ID:UGR/17704/11", "Section -9" ], 
-        typeSpeed: 100,
-        backSpeed: 100,
-        loop: true
-    });*/
-
     var typed = new Typed(".typing-2", {
-        strings: ["Name:Teklu Abebe", "ID:UGR/17704/11", "Section -9" ], 
+        strings: ["Name:Teklu Abebe.", "ID:UGR/17704/11.", "Deptartment: CSE.","Section -9." ], 
         typeSpeed: 100,
         backSpeed: 100,
         loop: true
