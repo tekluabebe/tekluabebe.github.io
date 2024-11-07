@@ -82,7 +82,7 @@ nav ul ul{
 	
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: : url('../images/back.jpg');
+	background-image:  url('../images/back.jpg');
 	padding: 0px;
 	margin: 10px;
 	height: 100%;
@@ -176,6 +176,3 @@ nav ul ul{
 	font-family: 'Montserrat', sans-serif;
 }
 
-img {
-  border-radius: 50%;
-}
